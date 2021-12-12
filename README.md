@@ -12,6 +12,7 @@
   <li><strong>Framework:</strong> ReactJs</li>
   <li><strong>Biblioteca: </strong>Styled-Components</li>
   <li><strong>Biblioteca: </strong>Axios</li>
+   <li><strong>Biblioteca: </strong>React-LazyLoad</li>
   <li><strong>Tipagem: </strong>Typescript</li>
 </ul>
 
@@ -25,6 +26,10 @@
   
   <h3>Axios</h3>
   <p>Utilizado para acessar a API e criar a conexão com a API da pexels, você pode ver a codificação usada na pasta API e no arquivo gallery.tsx</p>
+  
+  <h3>React-LazyLoad</h3>
+  <p>Biblioteca que facilita o carregamento das imagens quando a conexão de dados é instável ou de baixa velocidade</p>
+  
   
   <h3>Typescript</h3>
   <p>Utilizado para tipagem de dados, tornando assim a vida dos demais dev's mais facil, pois deixa claro os dados que precisam ser enviados para cada componente para o funcionamento da aplicação evitando assim algumas quebras de aplicação por dados incorretos.
