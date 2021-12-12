@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+<h1>Galeria Leadster</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Sobre o Projeto</h2>
+<p>O projeto consiste em uma galeria utilizando a API da plataforma pexels, o projeto foi contruído em REACTJS, utilizando algumas bibliotecas para auxiliar a criação da aplçicação como axios, react lazy-load e styled-components</p>
+<p>A aplicação foi dividas em componentes e utilizei Typescript para melhorar o desenvolvimento, trazendo uma maior clareza sobre os dados enviados entre os componentes, evitando assim alguns erros.</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2>Tecnologias Usadas:</h2>
 
-### `yarn start`
+<ul>
+  <li><strong>Framework: </strong> ReactJs</li>
+  <li><strong>Biblioteca: </strong> Axios</li>
+  <li><strong>Biblioteca: </strong> React-LazyLoad</li>
+  <li><strong>Biblioteca: </strong> Styled-Components</li>
+  <li><strong>API: </strong> Pexels</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2>Sobre as Tecnologias</h2>
 
-### `yarn test`
+<h3>ReactJS</h3>
+<p>Framework utilizado para a construção da solução, criado através do comando create-react-app --template typescript</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>Axios</h3>
+<p>Utilizado para a conexão e consulta com a API, podendo ser achado na pasta Services e também no componente Gallery.tsx</p>
+<p>  <a href="https://axios-http.com/docs/intro">Documentação</a></p>
 
-### `yarn build`
+<h3>React-LazyLoad</h3>
+<p>Utilizando para melhorar a performance da aplicação no carregamento de imagens, podendo assim tornar a experiência melhor para usuarios que estão com uma conexão de baixa qualidade</p>
+<p><a href="https://www.npmjs.com/package/react-lazyload">Documentação</a></p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Styled-Components</h3>
+<p>Utilizado para toda a estilização da aplicação, é uma biblioteca de CSS in JS, na aplicação possui um estilo global, encontrado na pasta styles, e em cada componente possui sua própria estilização, permitindo também a utilização de estilização encadeada como o SAAS.</p>
+<p><a href="https://styled-components.com/">Documentação</a></p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h3>Pexels</h3>
+<p> API utilizada para as fotos da galeria</p>
+<p><a href="https://www.pexels.com/pt-br/api/documentation/"> Documentação</a></p>
